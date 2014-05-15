@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#40B867"
+	android:gravity="top|center">
+
+	<Button
+		android:layout_height="wrap_content"
+		style="?android:attr/buttonBarButtonStyle"
+		android:text="MCPE Things by VectorGamings™"
+		android:layout_width="match_parent"
+		android:background="#7DDB94"
+		android:layout_margin="25dp"
+		android:id="@+id/Home"
+		android:padding="16dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Mods"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/Home"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/gomods"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="PocketMine-MP Plugins"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/gomods"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/gopmp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Texture Packs"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/gopmp"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/gotp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Other Tools ( iOS &amp; Android )"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/gotp"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/goother"/>
+
+</RelativeLayout>
+

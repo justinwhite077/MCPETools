@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#4CDC4C"
+	tools:context=".pmpAct">
+
+	<RelativeLayout
+		android:layout_height="150dp"
+		android:layout_width="250dp"
+		android:layout_margin="20dp"
+		android:background="#66DCDD"
+		android:id="@+id/pmpRelativeLayout1">
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="[NEW] TPCompass"
+			android:layout_width="match_parent"
+			android:padding="0dp"
+			android:background="#D6B1AF"
+			android:textSize="25sp"
+			android:id="@+id/pmpButton1"/>
+
+		<ImageView
+			android:layout_height="match_parent"
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_width="100dp"
+			android:layout_below="@id/pmpButton1"
+			android:src="@drawable/tpcompass"
+			android:id="@+id/pmpView1"
+			android:adjustViewBounds="true"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="TP with compass and long-click !"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_toRightOf="@id/pmpView1"
+			android:layout_below="@id/pmpButton1"
+			android:id="@+id/pmpTextView1"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:text="Download ⬇"
+			android:layout_width="match_parent"
+			android:layout_toRightOf="@id/pmpView1"
+			android:layout_below="@id/pmpTextView1"
+			android:padding="5dp"
+			android:id="@+id/tpcompass"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_height="150dp"
+		android:layout_width="250dp"
+		android:layout_margin="20dp"
+		android:background="#66DCDD"
+		android:layout_below="@id/pmpRelativeLayout1">
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="Economy"
+			android:layout_width="match_parent"
+			android:padding="0dp"
+			android:background="#D6B1AF"
+			android:textSize="25sp"
+			android:id="@+id/pmpButton1"/>
+
+		<ImageView
+			android:layout_height="match_parent"
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_width="100dp"
+			android:layout_below="@id/pmpButton1"
+			android:src="@drawable/economy"
+			android:id="@+id/pmpView1"
+			android:adjustViewBounds="true"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="It's time to go shopping !"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_toRightOf="@id/pmpView1"
+			android:layout_below="@id/pmpButton1"
+			android:id="@+id/pmpTextView1"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:text="Download ⬇"
+			android:layout_width="match_parent"
+			android:layout_toRightOf="@id/pmpView1"
+			android:layout_below="@id/pmpTextView1"
+			android:padding="5dp"
+			android:id="@+id/economy"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_height="150dp"
+		android:layout_width="250dp"
+		android:layout_toRightOf="@id/pmpRelativeLayout1"
+		android:background="#66DCDD"
+		android:layout_margin="20dp"
+		android:id="@+id/pmpRelativeLayout2">
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="Portal"
+			android:layout_width="match_parent"
+			android:padding="0dp"
+			android:background="#D6B1AF"
+			android:textSize="25sp"
+			android:id="@+id/pmpButton1"/>
+
+		<ImageView
+			android:layout_height="match_parent"
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_width="100dp"
+			android:layout_below="@id/pmpButton1"
+			android:src="@drawable/portal"
+			android:id="@+id/pmpView1"
+			android:adjustViewBounds="true"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Now, it's easy to create a portal !"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_toRightOf="@id/pmpView1"
+			android:layout_below="@id/pmpButton1"
+			android:id="@+id/pmpTextView1"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:text="Download ⬇"
+			android:layout_width="match_parent"
+			android:layout_toRightOf="@id/pmpView1"
+			android:layout_below="@id/pmpTextView1"
+			android:padding="5dp"
+			android:id="@+id/portal"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_height="150dp"
+		android:layout_width="250dp"
+		android:layout_toRightOf="@id/pmpRelativeLayout1"
+		android:background="#66DCDD"
+		android:layout_margin="20dp"
+		android:layout_below="@id/pmpRelativeLayout2">
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="No Grief ( PAP )"
+			android:layout_width="match_parent"
+			android:padding="0dp"
+			android:background="#D6B1AF"
+			android:textSize="25sp"
+			android:id="@+id/pmpButton1"/>
+
+		<ImageView
+			android:layout_height="match_parent"
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_width="100dp"
+			android:layout_below="@id/pmpButton1"
+			android:src="@drawable/resource_icon"
+			android:id="@+id/pmpView1"
+			android:adjustViewBounds="true"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Use Anti-Grief for your builds !"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_toRightOf="@id/pmpView1"
+			android:layout_below="@id/pmpButton1"
+			android:id="@+id/pmpTextView1"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:text="Download ⬇"
+			android:layout_width="match_parent"
+			android:layout_toRightOf="@id/pmpView1"
+			android:layout_below="@id/pmpTextView1"
+			android:padding="5dp"
+			android:id="@+id/nogrief"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_toRightOf="@id/pmpRelativeLayout2"
+		android:background="#4F9AC1">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="News &amp;amp; Featured !"
+			android:layout_width="match_parent"
+			android:id="@+id/pmpButton2"
+			android:background="#7CC3DA"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="Most Used"
+			android:layout_width="match_parent"
+			android:layout_below="@id/pmpButton2"
+			android:id="@+id/pmpButton3"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Copyright © It's free and open sources plugins, you can download. You can edit plugin ,But don't share you edits without permission ! VectorGamings™"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/pmpButton3"
+			android:typeface="monospace"/>
+
+	</RelativeLayout>
+
+</RelativeLayout>
+
